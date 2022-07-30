@@ -1,0 +1,52 @@
+{
+  "name": "hybr1d",
+  "version": "1.0.0",
+  "description": "hybr1d assignment for backend developer",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syed-yaseen/Hybr1d.git"
+  },
+  "author": "syed yaseen",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "csv": "^6.1.3",
+    "csvtojson": "^2.0.10",
+    "dateadd": "^1.0.2",
+    "delay": "^5.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.5",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "node-input-validator": "^4.5.0",
+    "nodemon": "^2.0.15",
+    "normalize-url": "^4.5.1",
+    "router": "^1.3.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^27.5.1",
+    "sequelize-mock": "^0.10.2"
+  },
+  "bugs": {
+    "url": "https://github.com/syed-yaseen/Hybr1d/issues"
+  },
+  "homepage": "https://github.com/syed-yaseen/Hybr1d#readme"
+}
