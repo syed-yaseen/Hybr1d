@@ -7,10 +7,9 @@ require('dotenv').config();
 
 // adding the start up routes
 require('./startup/routes')(app);
-// require('./service/database.service')();
-// require('./controller/scheduleJobs.controller');
+require('./service/database.service')();
 
-// initializing th port number to a variable from environment variables
+// initializing the port number to a variable from environment variables
 const port = process.env.APP_PORT;
 
 // const port = 3000;
